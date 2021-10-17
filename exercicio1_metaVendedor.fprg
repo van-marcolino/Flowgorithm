@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="a_patolino"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-16 06:08:26 PM"/>
+        <attribute name="created" value="YV9wYXRvbGlubztERVNLVE9QLTE3RDRMVTA7MjAyMS0xMC0xNjswNTo1ODo0NSBQTTszMzYy"/>
+        <attribute name="edited" value="YV9wYXRvbGlubztERVNLVE9QLTE3RDRMVTA7MjAyMS0xMC0xNjswNjowODoyNiBQTTszOzM0Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Janeiro, Fevereiro, Marco, Abril, media" type="Real" array="False" size=""/>
+            <input variable="Janeiro"/>
+            <input variable="Fevereiro"/>
+            <input variable="Marco"/>
+            <input variable="Abril"/>
+            <assign variable="media" expression="(Janeiro+Fevereiro+Marco+Abril)/4"/>
+            <output expression="&quot;O valor da m&#233;dia das vendas dos meses de Janeiro, Fevereiro, Mar&#231;o e Abril foi de: R$&quot;" newline="False"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns por bater a meta vendendor! Voc&#234; vai receber um abono de 10% no seu sal&#225;rio! :D &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot; Poxa, que pena que voc&#234; n&#227;o bateu sua meta! Voc&#234; vai receber um abono de 3%. &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
